@@ -18,6 +18,9 @@ public class Main {
             System.out.println(c);
         } catch (NumberFormatException e) {
             System.out.println("Enter whole number.");
+        } finally {
+            // Closes the scanner.
+            scanner.close();
         }
     }
 }
